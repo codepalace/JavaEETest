@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+   
+   <distributable />
+   
+   <display-name>Java Test Application Git-GitHub</display-name>
+   
+   <welcome-file-list>
+   		
+   		<welcome-file>/WEB-INF/jsp/index.jsp</welcome-file>
+   </welcome-file-list>
+   
+   
+   <servlet>
+   		<servlet-name>Index</servlet-name>
+   		<servlet-class>tech.codepalace.servlets.Index</servlet-class>
+   </servlet>
+   
+   <servlet-mapping>
+   		<servlet-name>Index</servlet-name>
+   		<url-pattern>/java-ee-test-git-github</url-pattern>
+   </servlet-mapping>
+   
+</web-app>
+
