@@ -23,7 +23,7 @@ public class Index extends HttpServlet {
 		this.getServletContext().getRequestDispatcher("/WEB-INF/jsp/index.jsp").forward(request, response);
 
 		
-		String message ="Mensaje de prueba desde la Servlet a la consola segundo intento";
+		String message ="Mensaje de prueba desde la Servlet a la consola segundo intentoo";
 		
 		System.out.println(message);
 	}
